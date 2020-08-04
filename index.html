@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 style="text-align: center;">A simple Calculator</h1>
+        <div id="calculator">
+            <div id="result">
+                <h1 id="output"></h1>
+                <p id="input"></p>
+            </div>
+            <div id="keyboard">
+               <div onclick="calculate('C')" class="operator" id="clear">C</div>
+               <div  onclick="calculate('CE')" class="operator" id="backspace">CE</div>
+               <div  onclick="calculate('%')" class="operator" id="%">%</div>
+               <div  onclick="calculate('/')" class="operator" id="/">&#247;
+                </div>
+             
+               <div  onclick="calculate('7')" class="number" id="7">7</div>
+               <dvi  onclick="calculate('8')" class="number" id="8">8</dvi>
+               <div  onclick="calculate('9')" class="number" id="9">9</div>
+               <div  onclick="calculate('*')" class="operator" id="*">&times;
+               </div>
+
+               <div  onclick="calculate('4')" class="number" id="4">4</div>
+               <div  onclick="calculate('5')" class="number" id="5">5</div>
+               <div  onclick="calculate('6')" class="number" id="6">6</div>
+               <div  onclick="calculate('-')" class="operator" id="-">-
+               </div>
+
+               <div   onclick="calculate('1')"class="number" id="1">1</div>
+               <div  onclick="calculate('2')" class="number" id="2">2</div>
+               <div  onclick="calculate('3')" class="number" id="3">3</div>
+               <div  onclick="calculate('+')" class="operator" id="+">+
+               </div>
+
+               <div   onclick="calculate('0')"class="number" id="0">0</div>
+               <div  onclick="calculate('.')" class="number" id=".">.</div>
+               <div  onclick="calculate('00')" class="number" id="00">00</div>
+               <div   onclick="calculate('=')"class="operator" id="=">=
+               </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.1.0/math.min.js"></script>
+</body>
+</html>
